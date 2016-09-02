@@ -140,7 +140,6 @@ public class Main
 	                    "txt", "bludok", "freedok");
 		    chooser.setFileFilter(filter);
 		    int returnVal = chooser.showSaveDialog(null);
-		    chooser.setSelectedFile(new File("New file.freedok"));
 		    if (returnVal == JFileChooser.APPROVE_OPTION)
 		    {
 			System.out.println("You chose to save this file: \"" + chooser.getSelectedFile().getName()
